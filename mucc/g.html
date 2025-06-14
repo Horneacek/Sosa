@@ -1,0 +1,107 @@
+<!DOCTYPE html> <!-- Declaración del tipo de documento como HTML5 -->
+<html lang="en"> <!-- Inicio del documento HTML con idioma inglés -->
+
+<head>
+    <link rel="stylesheet" href="estilos.css"> <!-- Enlace a la hoja de estilos externa 'estilos.css' -->
+    <meta charset="UTF-8"> <!-- Configuración del juego de caracteres a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la vista para dispositivos móviles -->
+    <title>Document</title> <!-- Título de la página -->
+    <!-- Estilo CSS en línea para alinear texto a la derecha en elementos td -->
+    <style>
+        td {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>TajeKIGame </h1> <!-- Encabezado de nivel 1 -->
+    <h2>TajeKIGame </h2> <!-- Encabezado de nivel 2 -->
+    <h3>TajeKIGame </h3> <!-- Encabezado de nivel 3 -->
+    <h4>TajeKIGame </h4> <!-- Encabezado de nivel 4 -->
+    <h5>TajeKIGame </h5> <!-- Encabezado de nivel 5 -->
+    <h6>TajeKIGame </h6> <!-- Encabezado de nivel 6 -->
+
+    <!-- Ejemplos de párrafos con formatos y elementos de texto -->
+    <p>
+        <b> <!-- Texto en negrita -->
+            <i><big> <!-- Texto en cursiva y grande -->
+                Lucas es uno de los peores <br> <!-- Salto de línea -->
+                estudiantes de la técnica 14
+            </i></big>
+        </b>
+    </p>
+
+    <!-- Ejemplos de texto subscript y superscript -->
+    <p>La fórmula del H<sub>2</sub>O </p> <!-- Subíndice -->
+    <p>La ecuación de una circunferencia es:
+        X<sup>2</sup> + Y<sup>2</sup> = R<sup>2</sup>
+    </p> <!-- Superíndice -->
+
+    <!-- Ejemplo de texto eliminado -->
+    <p> Aca pasa esto nashe <del> lo raya </del></p> <!-- Texto tachado -->
+
+    <p>
+        <pre>   nose                              nose         nose      nose
+        </pre> <!-- Texto preformateado -->
+    </p>
+
+    <hr> <!-- Línea horizontal -->
+
+    <!-- Ejemplo de tabla con datos organizados -->
+    <table border="5" >
+        <tr>
+            <td>nombre</td>
+            <td>apellido</td>
+            <td>segundo nombre</td>
+            <td>fecha</td>
+            <td>dni</td>
+        </tr>
+         <!-- Filas adicionales con datos simulados -->
+    </table>
+
+    <!-- Otra tabla con diferentes atributos -->
+    <br>
+    <table border="4" bgcolor="yellow"> 
+        <tr>
+            <td>ja</td>
+            <!-- Celdas de la tabla -->
+        </tr>
+    </table>
+
+    <br><br><br> <!-- Múltiples saltos de línea -->
+
+    <!-- Tabla más compleja con varios elementos -->
+    <table border="2" align="center" class="table">
+        <!-- Filas y celdas con datos organizados -->
+    </table>
+
+    <!-- Ejemplos de interactividad con JavaScript -->
+    <h2>JavaScript</h2>
+
+    <!-- Botones que modifican el contenido de los párrafos según el clic -->
+    <button type="button"
+    onclick='document.getElementById("demo").innerHTML = "ahora si lo ha hecho"'.>
+    Presione cuando quiera </button>
+    <p id="demo"> Todavía no ha presionado </p>
+
+    <br>
+    <br>
+    <!-- Segundo botón similar -->
+    <button type="button"
+    onclick='document.getElementById("demo2").innerHTML = " usted ahora si lo ha hecho presiono el 1"'.>
+    Boton 1 </button>
+    <p id="demo2"> usted todavía no ha presionado el 1 </p>
+
+    <br>
+    <!-- Tercer botón similar -->
+    <button type="button"
+    onclick='document.getElementById("demo1").innerHTML = "usted ahora si lo ha hecho presiono el 2"'.>
+    Boton 2 </button>
+    <p id="demo1"> usted todavía no ha presionado el 2 </p>
+
+    <br><br><br>
+
+    <!-- Comentarios sobre HTML y CSS al final del documento -->
+</body>
+</html>

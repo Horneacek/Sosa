@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<style>
+    /* . for class*/
+     /* # for ID */
+     .button{
+        border: none;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 16px;
+        margin: 22px 22px;
+     }
+     .button1{
+        background-color: white;
+        color: black;
+       
+    }
+     .button1:hover{
+        background-color: #4CAF50;
+        color: #d8d7d7;
+       
+    }
+    
+     .button2{ 
+    background-color: white;
+    color: black;
+    border: 2xp solid #008CBA;
+    }
+    .button2:hover {
+    background-color: #4CAF50;
+    color: white
+    }
+#derecha {
+    width: 30%;
+    padding-left: 15px;
+    margin-right: 15px;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+}#izquierda {
+    width: 30%;
+    padding-left: 15px;
+    margin-right: 15px;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+}
+#azul{
+    background-color: lightblue;
+}
+#amarillo{
+    background-color: yellow;
+}
+.button23:hover{
+    background-color: rgb(12, 24, 201);
+}
+.button24:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+
+     
+</style>
+
+
+<h1>Boton con estilos CSS</h1>
+
+<aside id="derecha">
+    <div id="azul">
+        <p>esto va a la derecha</p>
+    </div>
+    <!-- id="english"-->
+    <p>"HTML es un lenguaje de marcado que se utiliza para el desarrollo de paginas de Internet. 
+        Se trata de las silas que corrresponden a HyperText Markup Language
+    </p>
+</aside>
+<aside id="izquierda">
+    <div id="amarillo">
+        <p>es va a la izquierda</p>
+    </div>
+    <p>"HTML es un lenguaje de marcado que se utiliza para el desarrollo de paginas de Internet. 
+        Se trata de las silas que corrresponden a HyperText Markup Language </p>
+</aside>
+
+<button class="button button1"  type="button"
+onclick='document.getElementById("demo11").innerHTML = " usted ahora si lo ha hecho presiono el verde"'. >verde</button>
+<button class="button button23" type="button"
+onclick='document.getElementById("demo11").innerHTML = " usted ahora si lo ha hecho presiono el azul"'.>azul</button>
+<button class="button button24" type="button"
+onclick='document.getElementById("demo11").innerHTML = " usted ahora si lo ha hecho presiono el negro"'.>negro</button>
+<p id="demo11"> todavia no ha presionado </p>
+
+
+</body>
+</html>

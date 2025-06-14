@@ -1,0 +1,16 @@
+/*color rbg
+
+*/
+
+body{
+    
+    background-color: rgb(255, 250, 120);
+}
+.table{
+color: rgb(36, 231, 182);
+text-align-last: center;
+background-color: rgb(74, 119, 243);
+border-color: rgb(0, 0, 0);
+width: 90%;
+
+}

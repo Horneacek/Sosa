@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--alinear el texto-->
+    <style>
+        td {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>TajeKIGame </h1>
+    <h2>TajeKIGame </h2>
+    <h3>TajeKIGame </h3>
+    <h4>TajeKIGame </h4>
+    <h5>TajeKIGame </h5>
+    <h6>TajeKIGame </h6>
+  <!--
+Hay diferentes tamaños de head
+  -->
+  <!--Las siglas html significan:
+     HyperText Markup Text-->
+
+     <!--Bracket/contenedores
+    <> angle bracket
+    [] square bracket
+    {} curly bracket
+
+    -->
+    <!--
+        El parrafo sirve para que el usuario vea la informacion
+    <b></b> sirve para resaltar las letras
+    </br>   es un salto de linea(break row)
+    <i></i> le da un estilo cursiva a la letra
+    <small></small> reduce el tamaño de las  letras
+    <big></big> aumenta el tamano de las letras
+
+-->
+    <p>
+        <b>
+       <i><big> Lucas es uno de los peores </br> estudiantes de la tecnica 14</i></big>
+    </b>
+</p>
+<!--sub= texto inferior-->
+<p>la formula del H<sub>2</sub>O </p>
+
+<!--sup= texto superior-->
+<p>la ecuacion de una circuferencia es:
+    X<sup>2</sup>+Y<sup>2</sup>=R<sup>2</sup>
+</p>
+<!--del=lo tacha-->
+<p> aca pasa esto nashe <del>lo raya</del></p>
+
+<p>
+    <pre>   nose                              nose         nose      nose
+    </pre>  <!--pre=sirve para dejar el espacio que vos quieras de un texto a otro-->
+    </p> 
+   <!--hr=hace una linea br salto de linea-->
+   <hr>
+    <!--javascript css row columna-->
+
+    <table border="5" >
+        <tr>
+            <td>nombre</td>
+            <td>apellido</td>
+            <td>segundo nombre</td>
+            <td>fecha</td>
+            <td>dni</td>
+        </tr>
+         <tr>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+        </tr>
+         <tr>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+        </tr>
+         <tr>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+            <td>a</td>
+        </tr>
+    </table>
+
+    <!--inline inside external-->
+    
+<br>
+<table border="4" bgcolor="yellow"> 
+    <tr>
+        <td>ja</td>
+        <td>a</td>
+        <td>a</td>
+        <td>a</td>
+        <td>a</td>
+        <td>a</td>
+    </tr>
+</table>
+
+<br><br><br>
+<table border="2" align="center" class="table">
+    <tr>
+        <td>titulo</td>
+        <td>titulo</td>
+        <td>titulo</td>
+        <td>titulo</td>
+        <td>titulo</td>
+       
+        <td colspan="2" >titulo</td>
+    </tr>
+    <tr>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        
+        <td colspan="2">abc</td>
+    </tr>
+    <tr>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+    </tr>
+    <tr>
+        <td>abc</td>
+        <td>abc</td>
+        <td colspan="2">abc</td>
+        
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+    </tr>
+    
+    <tr>
+        <td>abc</td>
+        <td rowspan="2">abc</td>
+        <td colspan="3">abc</td>
+        <td>abc</td>
+        <td>abc</td>
+       
+    </tr>
+   
+    <tr>
+        <td>a</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        
+    </tr>
+   
+    <tr>
+        <td rowspan="2">abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td colspan="2">abc</td>
+        
+        <td>abc</td>
+        <td>abc</td>
+    </tr>
+    <tr>
+        <td>a</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+        <td>abc</td>
+       
+    </tr>
+</table>
+
+
+<!--el ID demo se modifica cuando lo cliquea
+ID:es un identificador y es unico
+Class: Pueden tener elementos de la misma clase-->
+<h2>JavaScript</h2>
+<button type="button"
+onclick='document.getElementById("demo").innerHTML = "ahora si lo ha hecho"'.>
+presione cuando quiera </button>
+<p id="demo"> todavia no ha presionado </p>
+
+<br>
+<br>
+<!--cudno de click llama al elemento con id demo2 para cambiar su valor-->
+<button type="button"
+onclick='document.getElementById("demo2").innerHTML = " usted ahora si lo ha hecho presiono el 1"'.>
+boton 1 </button>
+<p id="demo2"> usted todavia no ha presionado el 1 </p>
+<br>
+<button type="button"
+onclick='document.getElementById("demo1").innerHTML = "usted ahora si lo ha hecho presiono el 2"'.>
+boton 2 </button>
+<p id="demo1"> usted todavia no ha presionado el 2 </p>
+
+
+<br><br><br>
+<!--HTML (HyperText Markup Language) en inglés.
+HTML (Lenguaje de Marcado de Hipertexto) en español.
+
+CSS (Cascading Style Sheets) en inglés.
+CSS (Hojas de Estilo en Cascada) en español.
+-->
+</body>
+</html>
+
