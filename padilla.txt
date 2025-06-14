@@ -1,0 +1,32 @@
+<script>
+    let vec=[]
+        for (let f = 0; f < 10; f++) {
+            let valor=parseInt(Math.random()*1000);
+            vec.push(valor)
+        }
+        document.write("Vector antes de borar <br>");
+        for (let f = 0; f < 10; f++) {
+            document.write(vec[f]+'<br>');
+        }
+        for (let f = 0; f < 10; f=f+2) {
+            delete vec[f]
+        }
+        document.write('Vector luego de borrar las posiciones pares <br>');
+        for (let f = 0; f < 10; f++) {
+            document.write(vec[f]+'<br>')
+        }
+</script>
+
+
+
+let nombre=['Marcos','Ana','Luis','Jorge','Carlos']
+    document.write('Vector antes de ordenarlo <br>');
+    for (let f = 0; f < nombre.length; f++) {
+        document.write(nombre[f]+'<br>')
+    }
+    document.write('<br>')
+    nombre.sort();
+        document.write('Vector despues de ordenarlo <br>');
+        for (let f = 0; f < nombre.length; f++) {
+            document.write(nombre[f]+'<br>')            
+        }
